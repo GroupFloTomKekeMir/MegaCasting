@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <html>
     <head>
         <meta charset="UTF-8">
@@ -34,47 +40,57 @@
     </nav>
   </div>
 </header>
-<!----------------------------------------------------------------------------------->
-
+<!--------------------------------------------------HEADER--------------------------------------------------->      
+        
+        
 <div class="contain" style="margin-top : 60px;">
+    
+    <form method="POST" action="">
 
-<div class="row">
-<div class="span2 offset10">
-
-<h1> Connexion </h1>
-
-
-
-<form action="demo_form.asp">
-
-<div class="col-md-3 col-lg-1">
-<label for = "identifiant">Pseudo : </label>
-<input name="identifiant" id="identifiant" type="text" />
-</div>
-<div>
-<label for ="password"> Mot de passe : </label>
-<input name ="pasword" id="password" type="password" />
-</div>
-
-<br/>
-<div>
-      <input id="submit" type ="submit" value ="Connexion" style="text-align : center" />
-</div>
-
-</form>
-
-
-</div>
+        <div class="row" style ="margin-bottom: 70px; margin-top: 150px; margin-left: 100px; ">
+            <div class="col-lg-5">
+                <div class="row">
+                    <div class="col-lg-offset-10 col-lg-2">
+                        <h1> Connexion </h1>
+                    </div>
+                </div>
+             </div>
+        </div>
+    
+        <div class="row">	
+            <div class="col-lg-offset-4 col-lg-9" style ="margin-bottom: 40px">
+                <div class="col-lg-1">
+                    <label for = "identifiant">Pseudo : </label>
+                </div>
+                <div class="col-lg-2">
+                    <input name="identifiant" id="identifiant" type="text" />
+                </div>			
+            </div>
 	</div>
+
+    <div class="row">
+        <div class="col-lg-offset-4 col-lg-9" style ="margin-bottom: 40px">			
+            <div class="col-lg-1">
+                <label for = "password">Mot de passe  : </label>                                    
+             </div>
+             <div class="col-lg-2">
+                <input name="password" id="password" type="password" />
+        </div>
+	</div>
+    </div>
+        
+    <div class="row">
+        <div class="col-lg-offset-5">			
+                <input name="valider" id="valider" type="submit" />
+	</div>
+    </div>
+
+        
+    </form>
+        
 </div>
 
-
-
-
-
-
-<!----------------------------------------------------------------------------------->
-     
+<!--------------------------------------------------FOOTER---------------------------------------------------> 
         <footer class="row">
             
         </footer>
